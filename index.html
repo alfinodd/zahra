@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Kenangan Senja</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- feather icon -->
+     <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!--navbar start-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+
+    <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+    </div>
+
+    <!-- navbar extra -->
+<div class="navbar-extra">
+  <a href="#" id="search"><i data-feather="search"></i></a>
+  <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+  <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+</div>
+</nav>
+<!-- navbar end -->
+
+<!-- Cart Popup -->
+<div class="cart-popup" id="cart-popup">
+  <h3>Keranjang Belanja</h3>
+  <ul id="cart-items"></ul>
+  <p><strong>Total: Rp<span id="cart-total">0</span></strong></p>
+  <button class="btn-close" id="close-cart">Tutup</button>
+</div>
+
+    </nav>
+    <!--navbar end-->
+
+    <!-- hero section start-->
+     <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+            <p>Lebih dari sekadar tempat menikmati kopi, kedai kami adalah ruang untuk berbagi cerita, menemukan inspirasi, dan merasakan kenyamanan. Dengan pilihan kopi terbaik dan pelayanan hangat, kami siap menemani setiap langkah harimu.</p>
+            <a href="https://web.whatsapp.com/send?phone=6285138094035&text=Halo%2C%20saya%20mau%20pesan%3A%0ANama%3A%20%0AMenu%3A%20%0AJumlah%3A%20%0ACatatan%3A%20" 
+   target="_blank" 
+   class="cta">
+  Beli Sekarang
+</a>
+
+
+        </main>
+     </section>
+    <!-- hero section -->
+
+     <!--about section-->
+
+     <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa memilih kopi kami?</h3>
+<p>Kopi kami dibuat dari biji pilihan yang diproses dengan penuh ketelitian, sehingga setiap cangkir menghadirkan cita rasa otentik yang khas. Kami percaya bahwa secangkir kopi bukan hanya soal rasa, tetapi juga pengalaman yang menemani harimu.</p>
+<p>Dengan suasana hangat dan pelayanan ramah, kami ingin menjadi tempat favoritmu untuk bersantai, berbagi cerita, ataupun menemukan inspirasi baru. Setiap tegukan adalah cara kami menghadirkan kenyamanan untukmu.</p>
+
+     </section>
+
+     <!--about section end-->
+
+     <!-- menu section -->
+    <section id="menu" class="menu">
+  <h2><span>Menu</span> Kami</h2>
+  <p>Nikmati ragam pilihan menu kafe yang diracik khusus untuk menemani obrolan hangat, momen santai, atau sekadar waktu istirahat Anda. Dengan suasana nyaman dan cita rasa khas, kami hadir untuk membuat hari Anda lebih berkesan.</p>
+
+  <!-- Coffee -->
+  <div class="row">
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/espresso1.jpg" alt="Espresso" class="menu-card-img">
+      <h3 class="menu-card-title">Espresso</h3>
+      <p class="menu-card-price">Rp. 15K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/latte1.jpg" alt="Latte" class="menu-card-img">
+      <h3 class="menu-card-title">Latte</h3>
+      <p class="menu-card-price">Rp. 18K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/cappucino1.jpg" alt="Cappuccino" class="menu-card-img">
+      <h3 class="menu-card-title">Cappuccino</h3>
+      <p class="menu-card-price">Rp. 20K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/americano1.jpg" alt="Americano" class="menu-card-img">
+      <h3 class="menu-card-title">Americano</h3>
+      <p class="menu-card-price">Rp. 20K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/mocha latte1.jpg" alt="Mocha Latte" class="menu-card-img">
+      <h3 class="menu-card-title">Mocha Latte</h3>
+      <p class="menu-card-price">Rp. 20K</p>
+    </div>
+  </div> <!-- tutup row Coffee -->
+
+  <!-- Non Coffee -->
+  <h2 style="margin-top:40px;">Non Coffee</h2>
+  <div class="row">
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/chocolate1.jpg" alt="Chocolate" class="menu-card-img">
+      <h3 class="menu-card-title">Chocolate</h3>
+      <p class="menu-card-price">Rp. 18K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/matcha latte1.jpg" alt="Matcha Latte" class="menu-card-img">
+      <h3 class="menu-card-title">Matcha Latte</h3>
+      <p class="menu-card-price">Rp. 20K</p>
+    </div>
+
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/red velvet1.jpg" alt="Red Velvet" class="menu-card-img">
+      <h3 class="menu-card-title">Red Velvet</h3>
+      <p class="menu-card-price">Rp. 22K</p>
+    </div>
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/lemon tea1.jpg" alt="Lemon Tea" class="menu-card-img">
+      <h3 class="menu-card-title">Lemon Tea</h3>
+      <p class="menu-card-price">Rp. 7K</p>
+    </div>
+  </div> <!-- tutup row Non Coffee -->
+
+  <h2 style="margin-top:40px;">Snack</h2>
+  <div class="row">
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/burger1.jpg" alt="Burger" class="menu-card-img">
+      <h3 class="menu-card-title">Burger</h3>
+      <p class="menu-card-price">Rp. 18K</p>
+    </div>
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/Brownies2.jpg" alt="Brownies" class="menu-card-img">
+      <h3 class="menu-card-title">Brownies</h3>
+      <p class="menu-card-price">Rp. 16K</p>
+    </div>
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/cheesecake1.jpg" alt="Cheesecake" class="menu-card-img">
+      <h3 class="menu-card-title">Cheesecake</h3>
+      <p class="menu-card-price">Rp. 23K</p>
+    </div>
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/mix plater1.jpg" alt="Mix Plater" class="menu-card-img">
+      <h3 class="menu-card-title">Mix Plater</h3>
+      <p class="menu-card-price">Rp. 18K</p>
+    </div>
+    <div class="menu-card">
+      <img src="img/menu/kenangansenja/muffin1.jpg" alt="Muffin" class="menu-card-img">
+      <h3 class="menu-card-title">Muffin</h3>
+      <p class="menu-card-price">Rp. 12K</p>
+    </div>
+   </div>
+
+   <h2 style="margin-top:40px;">Special Menu</h2>
+  <div class="row">
+  <div class="menu-card">
+    <img src="img/menu/kenangansenja/nasi goreng1.jpg" alt="Nasi Goreng" class="menu-card-img">
+    <h3 class="menu-card-title">Nasi Goreng</h3>
+    <p class="menu-card-price">Rp. 20K</p>
+  </div>
+  <div class="menu-card">
+    <img src="img/menu/kenangansenja/spaghetti1.jpg" alt="Spaghetti" class="menu-card-img">
+    <h3 class="menu-card-title">Spaghetti</h3>
+    <p class="menu-card-price">Rp. 23K</p>
+  </div>
+  <div class="menu-card">
+    <img src="img/menu/kenangansenja/katsu teriyaki1.jpg" alt="Katsu Teriyaki" class="menu-card-img">
+    <h3 class="menu-card-title">Katsu Teriyaki</h3>
+    <p class="menu-card-price">Rp. 20K</p>
+  </div>
+  <div class="menu-card">
+    <img src="img/menu/kenangansenja/udang asam manis.jpg" alt="Udang Asam Manis" class="menu-card-img">
+    <h3 class="menu-card-title">Udang Asam Manis</h3>
+    <p class="menu-card-price">Rp. 28K</p>
+  </div>
+</div>
+  </section>
+     <!-- menu section -->
+
+
+ <!-- contact section start -->
+<section id="contact" class="contact">
+  <h2><span>Kontak</span> Kami</h2>
+  <p>Silakan hubungi kami untuk informasi lebih lanjut, kritik, saran, atau pemesanan.Kami siap membantu menjawab pertanyaan Anda. Jangan ragu untuk menghubungi kami melalui form atau kontak di bawah ini.</p>
+
+  <div class="row">
+    <!-- Map -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.4703086034123!2d110.60464700729841!3d-7.695892988798124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a43f0813058c7%3A0xdef47746e275b6e0!2sSMK%20Negeri%201%20Klaten!5e0!3m2!1sid!2sid!4v1758512427512!5m2!1sid!2sid"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      class="map">
+    </iframe>
+
+    <!-- Form -->
+    <!-- Form -->
+<form action="https://formsubmit.co/cclaodine11@gmail.com" method="POST">
+  <div class="input-group">
+    <i data-feather="user"></i>
+    <input type="text" name="Nama" placeholder="nama" required>
+  </div>
+  <div class="input-group">
+    <i data-feather="mail"></i>
+    <input type="email" name="Email" placeholder="email" required>
+  </div>
+  <div class="input-group">
+    <i data-feather="phone"></i>
+    <input type="text" name="No HP" placeholder="no hp" required>
+  </div>
+  <div class="input-group">
+    <i data-feather="message-circle"></i>
+    <input type="text" name="Pesan" placeholder="pesan" required>
+  </div>
+  
+  <!-- Auto redirect ke thankyou.html -->
+  <input type="hidden" name="_next" value="thankyou.html">
+  <!-- Matikan captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit" class="btn">Kirim ke Email</button>
+</form>
+
+<!-- contact section end -->
+
+<!-- foooter start -->
+ <footer>
+    <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+    </div>
+
+<div class="credit">
+    <p>Created by <a href="">AzzahraPutri</a>. | &copy; 2025.</p>
+</div>
+
+ </footer>
+<!-- foooter end -->
+
+    <!--feather icons-->
+    <script>
+        feather.replace( )
+    </script>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
